@@ -1,14 +1,818 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+[{
+		"vmSessionId": "5e3bc582a53a572e26d9277e",
+		"clientCorrelationId": "Xchange119454",
+		"customerId": "Waybeo",
+		"startTime": "2020-02-06T07:51:30.407+0000",
+		"endTime": "2020-02-06T07:51:36.849+0000",
+		"duration": 6442,
+		"fromWaitingTime": 6404,
+		"conversationDuration": 0,
+		"overallCallStatus": "Answered",
+		"callType": "INBOUND",
+		"callerId": "8045475031",
+		"participants": [{
+			"participantAddress": "9899391271",
+			"participantType": "From",
+			"startTime": "2020-02-06T07:51:30.407+0000",
+			"endTime": "2020-02-06T07:51:36.849+0000",
+			"ringDuration": 6404,
+			"callAnswerTime": "2020-02-06T07:51:30.445+0000",
+			"duration": 6442,
+			"status": "Disconnected",
+			"hangupCause": "USER_INITIATED",
+			"audios": [{
+				"audioURL": "http://10.89.47.210:8088/CDS/airtel_ironman/prompts/Play_nightingales_1.wav"
+			}]
+		}],
+		"recordingURL": "https://openapi.airtel.in/gateway/airtel-xchange-reporting/recordingFile?recording=gLTIM5uvaO6TqDKclWycfQmsZ5jTH7VxDtfynCgnuUYIj6f40+JfFgqdO3Qxf/mTTmKbiseWNo44bus6UbFOug==",
+		"audios": [],
+		"events": [{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "Answer",
+				"time": "2020-02-06T07:51:31.108+0000"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "Disconnected",
+				"time": "2020-02-06T07:51:36.848+0000",
+				"metaData": {
+					"causeCode": "16",
+					"sipCode": "699",
+					"causeCodeDescription": "Normal call clearing"
+				}
+			}
+		],
+		"metaData": {
+			"uuid": "5e3bc587cb1daf39666da730",
+			"isBusinessHour": true
+		},
+		"timestamp": "2020-02-06 07:51:37"
+	},
+	{
+		"vmSessionId": "5e3946ef5d31cc03127c93f2",
+		"clientCorrelationId": "Xchange109572",
+		"customerId": "Waybeo",
+		"startTime": "2020-02-04T10:26:55.259+0000",
+		"endTime": "2020-02-04T10:27:00.368+0000",
+		"duration": 5109,
+		"fromWaitingTime": 5083,
+		"conversationDuration": 0,
+		"overallCallStatus": "Answered",
+		"callType": "INBOUND",
+		"callerId": "8045475031",
+		"participants": [{
+			"participantAddress": "9899391271",
+			"participantType": "From",
+			"startTime": "2020-02-04T10:26:55.258+0000",
+			"endTime": "2020-02-04T10:27:00.368+0000",
+			"ringDuration": 5083,
+			"callAnswerTime": "2020-02-04T10:26:55.285+0000",
+			"duration": 5110,
+			"status": "Disconnected",
+			"hangupCause": "USER_INITIATED",
+			"audios": [{
+				"audioURL": "http://10.89.47.210:8088/CDS/airtel_ironman/prompts/Play_nightingales_1.wav"
+			}]
+		}],
+		"recordingURL": "https://openapi.airtel.in/gateway/airtel-xchange-reporting/recordingFile?recording=gLTIM5uvaO6TqDKclWycfWkN/CJ+pvPbh2HNfpf6VKUzYgpevpUil2KmUtTjeeaETmKbiseWNo44bus6UbFOug==",
+		"audios": [],
+		"events": [{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "Answer",
+				"time": "2020-02-04T10:26:56.007+0000"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "Disconnected",
+				"time": "2020-02-04T10:27:00.365+0000",
+				"metaData": {
+					"causeCode": "16",
+					"sipCode": "699",
+					"causeCodeDescription": "Normal call clearing"
+				}
+			}
+		],
+		"metaData": {
+			"uuid": "5e3946efcb1daf745c0f84ab",
+			"isBusinessHour": false
+		},
+		"timestamp": "2020-02-04 10:27:00"
+	},
+	{
+		"vmSessionId": "5e393e835d31cc08cd091a5e",
+		"clientCorrelationId": "Xchange109545",
+		"customerId": "Waybeo",
+		"startTime": "2020-02-04T09:50:59.942+0000",
+		"endTime": "2020-02-04T09:51:07.030+0000",
+		"duration": 7088,
+		"fromWaitingTime": 7053,
+		"conversationDuration": 0,
+		"overallCallStatus": "Answered",
+		"callType": "INBOUND",
+		"callerId": "8045475031",
+		"participants": [{
+			"participantAddress": "9899391271",
+			"participantType": "From",
+			"startTime": "2020-02-04T09:50:59.942+0000",
+			"endTime": "2020-02-04T09:51:07.030+0000",
+			"ringDuration": 7053,
+			"callAnswerTime": "2020-02-04T09:50:59.977+0000",
+			"duration": 7088,
+			"status": "Disconnected",
+			"hangupCause": "USER_INITIATED",
+			"audios": [{
+				"audioURL": "http://10.89.47.210:8088/CDS/airtel_ironman/prompts/Play_nightingales_1.wav"
+			}]
+		}],
+		"recordingURL": "https://openapi.airtel.in/gateway/airtel-xchange-reporting/recordingFile?recording=gLTIM5uvaO6TqDKclWycfYw17OdccEmmLPp22z0lXqULb4/qtXGE3ixMT8hqBjXTTmKbiseWNo44bus6UbFOug==",
+		"audios": [],
+		"events": [{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "Answer",
+				"time": "2020-02-04T09:51:01.339+0000"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "Disconnected",
+				"time": "2020-02-04T09:51:07.025+0000",
+				"metaData": {
+					"causeCode": "16",
+					"sipCode": "699",
+					"causeCodeDescription": "Normal call clearing"
+				}
+			}
+		],
+		"timestamp": "2020-02-04 09:51:07"
+	},
+	{
+		"vmSessionId": "5e32d40fa53a57290d6bebf1",
+		"clientCorrelationId": "Xchange109043",
+		"customerId": "Waybeo",
+		"startTime": "2020-01-30T13:03:11.327+0000",
+		"endTime": "2020-01-30T13:03:20.019+0000",
+		"duration": 8692,
+		"fromWaitingTime": 8655,
+		"conversationDuration": 0,
+		"overallCallStatus": "Answered",
+		"callType": "INBOUND",
+		"callerId": "8045475031",
+		"participants": [{
+			"participantAddress": "9899391271",
+			"participantType": "From",
+			"startTime": "2020-01-30T13:03:11.327+0000",
+			"endTime": "2020-01-30T13:03:20.019+0000",
+			"ringDuration": 8655,
+			"callAnswerTime": "2020-01-30T13:03:11.364+0000",
+			"duration": 8692,
+			"status": "Disconnected",
+			"hangupCause": "USER_INITIATED",
+			"audios": [{
+				"audioURL": "http://10.89.47.210:8088/CDS/airtel_ironman/prompts/Play_nightingales_1.wav"
+			}]
+		}],
+		"recordingURL": "https://openapi.airtel.in/gateway/airtel-xchange-reporting/recordingFile?recording=gLTIM5uvaO6TqDKclWycfagHWAnSZFzSxfX1NuScNA4jnCqIjDOX3/AH58aMIE7GTmKbiseWNo44bus6UbFOug==",
+		"audios": [],
+		"events": [{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "Answer",
+				"time": "2020-01-30T13:03:13.802+0000"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "Disconnected",
+				"time": "2020-01-30T13:03:20.018+0000",
+				"metaData": {
+					"causeCode": "16",
+					"sipCode": "699",
+					"causeCodeDescription": "Normal call clearing"
+				}
+			}
+		],
+		"timestamp": "2020-01-30 13:03:21"
+	},
+	{
+		"vmSessionId": "5e3147e887fcb10a13568a14",
+		"clientCorrelationId": "Xchange108841",
+		"customerId": "Waybeo",
+		"startTime": "2020-01-29T08:52:56.621+0000",
+		"endTime": "2020-01-29T08:53:15.763+0000",
+		"duration": 19142,
+		"fromWaitingTime": 19032,
+		"conversationDuration": 0,
+		"overallCallStatus": "Missed",
+		"callType": "INBOUND",
+		"callerId": "8045475031",
+		"participants": [{
+				"participantAddress": "9899391271",
+				"participantType": "From",
+				"startTime": "2020-01-29T08:52:56.620+0000",
+				"endTime": "2020-01-29T08:53:15.682+0000",
+				"ringDuration": 30,
+				"callAnswerTime": "2020-01-29T08:52:56.650+0000",
+				"duration": 19062,
+				"status": "Disconnected",
+				"hangupCause": "SYSTEM_INITIATED",
+				"audios": [{
+						"audioURL": "http://10.89.47.210:8088/CDS/airtel_ironman/prompts/Play_nightingales_1.wav"
+					},
+					{
+						"audioURL": "http://10.89.47.210:8088/CDS/airtel_ironman/prompts/ring2.wav"
+					}
+				]
+			},
+			{
+				"participantAddress": "9633657090",
+				"participantType": "To",
+				"startTime": "2020-01-29T08:53:11.746+0000",
+				"ringDuration": 916,
+				"status": "CalledNumber",
+				"hangupCause": "SYSTEM_INITIATED"
+			}
+		],
+		"recordingURL": "https://openapi.airtel.in/gateway/airtel-xchange-reporting/recordingFile?recording=gLTIM5uvaO6TqDKclWycfdmTP6cGM9RjLj4w7j5pu33TZQYMcX46Gfesq/J/a7zITmKbiseWNo44bus6UbFOug==",
+		"audios": [],
+		"events": [{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "Answer",
+				"time": "2020-01-29T08:52:57.920+0000"
+			},
+			{
+				"eventType": "MEDIA",
+				"participantAddress": "9899391271",
+				"event": "Played",
+				"time": "2020-01-29T08:53:11.395+0000",
+				"metaData": {
+					"audioUrl": "http://10.89.47.210:8088/CDS/airtel_ironman/prompts/Play_nightingales_1.wav"
+				},
+				"comments": "Media file play completed"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9633657090",
+				"event": "CalledNumber",
+				"time": "2020-01-29T08:53:11.797+0000",
+				"comments": "call initiated on network"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9633657090",
+				"event": "Ringing_Start",
+				"time": "2020-01-29T08:53:13.816+0000",
+				"comments": "ring initiated from network"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9633657090",
+				"event": "CallEarlyAnswered",
+				"time": "2020-01-29T08:53:12.728+0000"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "Disconnected",
+				"time": "2020-01-29T08:53:15.679+0000",
+				"metaData": {
+					"causeCode": "16",
+					"sipCode": "699",
+					"causeCodeDescription": "Normal call clearing"
+				}
+			}
+		],
+		"timestamp": "2020-01-29 08:53:16"
+	},
+	{
+		"vmSessionId": "5e26fbb587fcb135c50a84f0",
+		"clientCorrelationId": "Xchange107778",
+		"customerId": "Waybeo",
+		"startTime": "2020-01-21T13:25:09.372+0000",
+		"endTime": "2020-01-21T13:25:42.340+0000",
+		"duration": 32968,
+		"fromWaitingTime": 26462,
+		"conversationDuration": 6259,
+		"overallCallStatus": "Answered",
+		"callType": "INBOUND",
+		"callerId": "8045475031",
+		"participants": [{
+				"participantAddress": "9643219897",
+				"participantType": "From",
+				"startTime": "2020-01-21T13:25:09.372+0000",
+				"endTime": "2020-01-21T13:25:42.340+0000",
+				"ringDuration": 47,
+				"callAnswerTime": "2020-01-21T13:25:09.419+0000",
+				"duration": 32968,
+				"status": "Disconnected",
+				"hangupCause": "SYSTEM_INITIATED",
+				"audios": [{
+						"audioURL": "http://10.89.47.210:8088/CDS/airtel_ironman/prompts/Play_nightingales_1.wav"
+					},
+					{
+						"audioURL": "http://10.89.47.210:8088/CDS/airtel_ironman/prompts/ring2.wav",
+						"status": "Stopped"
+					}
+				]
+			},
+			{
+				"participantAddress": "9899391271",
+				"participantType": "To",
+				"startTime": "2020-01-21T13:25:23.616+0000",
+				"endTime": "2020-01-21T13:25:42.140+0000",
+				"ringDuration": 11369,
+				"callAnswerTime": "2020-01-21T13:25:35.881+0000",
+				"duration": 18524,
+				"status": "Disconnected",
+				"hangupCause": "USER_INITIATED",
+				"audios": []
+			}
+		],
+		"recordingURL": "https://openapi.airtel.in/gateway/airtel-xchange-reporting/recordingFile?recording=gLTIM5uvaO6TqDKclWycfYnlRpJEuhFmYAuBRc67cR9EbH4dV2ydPte0ZC6edmzUTmKbiseWNo44bus6UbFOug==",
+		"audios": [],
+		"events": [{
+				"eventType": "CALL",
+				"participantAddress": "9643219897",
+				"event": "Answer",
+				"time": "2020-01-21T13:25:09.835+0000"
+			},
+			{
+				"eventType": "MEDIA",
+				"participantAddress": "9643219897",
+				"event": "Played",
+				"time": "2020-01-21T13:25:23.278+0000",
+				"metaData": {
+					"audioUrl": "http://10.89.47.210:8088/CDS/airtel_ironman/prompts/Play_nightingales_1.wav"
+				},
+				"comments": "Media file play completed"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "CalledNumber",
+				"time": "2020-01-21T13:25:23.748+0000",
+				"comments": "call initiated on network"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "Ringing_Start",
+				"time": "2020-01-21T13:25:25.767+0000",
+				"comments": "ring initiated from network"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "Answer",
+				"time": "2020-01-21T13:25:35.894+0000"
+			},
+			{
+				"eventType": "MEDIA",
+				"participantAddress": "9643219897",
+				"event": "Stopped",
+				"time": "2020-01-21T13:25:36.151+0000",
+				"metaData": {
+					"audioUrl": "http://10.89.47.210:8088/CDS/airtel_ironman/prompts/ring2.wav"
+				},
+				"comments": "Media file play stopped"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "Disconnected",
+				"time": "2020-01-21T13:25:42.138+0000",
+				"metaData": {
+					"causeCode": "16",
+					"sipCode": "699",
+					"causeCodeDescription": "Normal call clearing"
+				}
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9643219897",
+				"event": "Disconnected",
+				"time": "2020-01-21T13:25:42.338+0000",
+				"metaData": {
+					"causeCode": "16",
+					"sipCode": "699",
+					"causeCodeDescription": "Normal call clearing"
+				}
+			}
+		]
+	},
+	{
+		"vmSessionId": "5e26f06687fcb135c50a8449",
+		"clientCorrelationId": "Xchange107748",
+		"customerId": "Waybeo",
+		"startTime": "2020-01-21T12:36:54.782+0000",
+		"endTime": "2020-01-21T12:37:28.531+0000",
+		"duration": 33749,
+		"fromWaitingTime": 33655,
+		"conversationDuration": 0,
+		"overallCallStatus": "Missed",
+		"callType": "INBOUND",
+		"callerId": "8045475031",
+		"participants": [{
+				"participantAddress": "9205971433",
+				"participantType": "From",
+				"startTime": "2020-01-21T12:36:54.782+0000",
+				"endTime": "2020-01-21T12:37:28.483+0000",
+				"ringDuration": 46,
+				"callAnswerTime": "2020-01-21T12:36:54.828+0000",
+				"duration": 33701,
+				"status": "Disconnected",
+				"hangupCause": "SYSTEM_INITIATED",
+				"audios": [{
+						"audioURL": "http://10.89.47.210:8088/CDS/airtel_ironman/prompts/Play_nightingales_1.wav"
+					},
+					{
+						"audioURL": "http://10.89.47.210:8088/CDS/airtel_ironman/prompts/ring2.wav"
+					}
+				]
+			},
+			{
+				"participantAddress": "9899391271",
+				"participantType": "To",
+				"startTime": "2020-01-21T12:37:09.003+0000",
+				"endTime": "2020-01-21T12:37:28.728+0000",
+				"ringDuration": 973,
+				"duration": 19725,
+				"status": "Removed",
+				"hangupCause": "SYSTEM_INITIATED",
+				"audios": []
+			}
+		],
+		"recordingURL": "https://openapi.airtel.in/gateway/airtel-xchange-reporting/recordingFile?recording=gLTIM5uvaO6TqDKclWycfT5TxDSxa89cVn72zaAbL2xwUs/dsroCpYohNE/JTpV/TmKbiseWNo44bus6UbFOug==",
+		"audios": [],
+		"events": [{
+				"eventType": "CALL",
+				"participantAddress": "9205971433",
+				"event": "Answer",
+				"time": "2020-01-21T12:36:55.256+0000"
+			},
+			{
+				"eventType": "MEDIA",
+				"participantAddress": "9205971433",
+				"event": "Played",
+				"time": "2020-01-21T12:37:08.838+0000",
+				"metaData": {
+					"audioUrl": "http://10.89.47.210:8088/CDS/airtel_ironman/prompts/Play_nightingales_1.wav"
+				},
+				"comments": "Media file play completed"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "CalledNumber",
+				"time": "2020-01-21T12:37:09.105+0000",
+				"comments": "call initiated on network"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "Ringing_Start",
+				"time": "2020-01-21T12:37:11.124+0000",
+				"comments": "ring initiated from network"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9205971433",
+				"event": "Disconnected",
+				"time": "2020-01-21T12:37:28.480+0000",
+				"metaData": {
+					"causeCode": "16",
+					"sipCode": "699",
+					"causeCodeDescription": "Normal call clearing"
+				}
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "Removed",
+				"time": "2020-01-21T12:37:28.725+0000",
+				"metaData": {
+					"causeCode": "31",
+					"sipCode": "500",
+					"causeCodeDescription": "normal unspecified"
+				}
+			}
+		]
+	},
+	{
+		"vmSessionId": "5e26f0355d31cc572b7316f4",
+		"clientCorrelationId": "Xchange107746",
+		"customerId": "Waybeo",
+		"startTime": "2020-01-21T12:36:05.370+0000",
+		"endTime": "2020-01-21T12:36:43.601+0000",
+		"duration": 38231,
+		"fromWaitingTime": 38141,
+		"conversationDuration": 0,
+		"overallCallStatus": "Missed",
+		"callType": "INBOUND",
+		"callerId": "8045475031",
+		"participants": [{
+				"participantAddress": "9205971433",
+				"participantType": "From",
+				"startTime": "2020-01-21T12:36:05.370+0000",
+				"endTime": "2020-01-21T12:36:43.559+0000",
+				"ringDuration": 48,
+				"callAnswerTime": "2020-01-21T12:36:05.418+0000",
+				"duration": 38189,
+				"status": "Disconnected",
+				"hangupCause": "SYSTEM_INITIATED",
+				"audios": [{
+						"audioURL": "http://10.89.47.210:8088/CDS/airtel_ironman/prompts/Play_nightingales_1.wav"
+					},
+					{
+						"audioURL": "http://10.89.47.210:8088/CDS/airtel_ironman/prompts/ring2.wav"
+					}
+				]
+			},
+			{
+				"participantAddress": "9899391271",
+				"participantType": "To",
+				"startTime": "2020-01-21T12:36:19.825+0000",
+				"endTime": "2020-01-21T12:36:43.735+0000",
+				"ringDuration": 958,
+				"duration": 23910,
+				"status": "Removed",
+				"hangupCause": "SYSTEM_INITIATED",
+				"audios": []
+			}
+		],
+		"recordingURL": "https://openapi.airtel.in/gateway/airtel-xchange-reporting/recordingFile?recording=gLTIM5uvaO6TqDKclWycfWtJDbv/61B19ly4zPK91B9ZzT1kqM5bP3JqX/ZtrQ7HTmKbiseWNo44bus6UbFOug==",
+		"audios": [],
+		"events": [{
+				"eventType": "CALL",
+				"participantAddress": "9205971433",
+				"event": "Answer",
+				"time": "2020-01-21T12:36:06.022+0000"
+			},
+			{
+				"eventType": "MEDIA",
+				"participantAddress": "9205971433",
+				"event": "Played",
+				"time": "2020-01-21T12:36:19.621+0000",
+				"metaData": {
+					"audioUrl": "http://10.89.47.210:8088/CDS/airtel_ironman/prompts/Play_nightingales_1.wav"
+				},
+				"comments": "Media file play completed"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "CalledNumber",
+				"time": "2020-01-21T12:36:19.946+0000",
+				"comments": "call initiated on network"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "Ringing_Start",
+				"time": "2020-01-21T12:36:21.965+0000",
+				"comments": "ring initiated from network"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9205971433",
+				"event": "Disconnected",
+				"time": "2020-01-21T12:36:43.557+0000",
+				"metaData": {
+					"causeCode": "16",
+					"sipCode": "699",
+					"causeCodeDescription": "Normal call clearing"
+				}
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "Removed",
+				"time": "2020-01-21T12:36:43.733+0000",
+				"metaData": {
+					"causeCode": "31",
+					"sipCode": "500",
+					"causeCodeDescription": "normal unspecified"
+				}
+			}
+		]
+	},
+	{
+		"vmSessionId": "5e26ef2387fcb135c50a841e",
+		"clientCorrelationId": "Xchange107741",
+		"customerId": "Waybeo",
+		"startTime": "2020-01-21T12:31:31.367+0000",
+		"endTime": "2020-01-21T12:31:53.073+0000",
+		"duration": 21706,
+		"fromWaitingTime": 21629,
+		"conversationDuration": 0,
+		"overallCallStatus": "Missed",
+		"callType": "INBOUND",
+		"callerId": "8045475031",
+		"participants": [{
+				"participantAddress": "9205971433",
+				"participantType": "From",
+				"startTime": "2020-01-21T12:31:31.367+0000",
+				"endTime": "2020-01-21T12:31:53.035+0000",
+				"ringDuration": 39,
+				"callAnswerTime": "2020-01-21T12:31:31.406+0000",
+				"duration": 21668,
+				"status": "Disconnected",
+				"hangupCause": "SYSTEM_INITIATED",
+				"audios": [{
+						"audioURL": "http://10.89.47.210:8088/CDS/airtel_ironman/prompts/Play_nightingales_1.wav"
+					},
+					{
+						"audioURL": "http://10.89.47.210:8088/CDS/airtel_ironman/prompts/ring2.wav"
+					}
+				]
+			},
+			{
+				"participantAddress": "9899391271",
+				"participantType": "To",
+				"startTime": "2020-01-21T12:31:45.584+0000",
+				"endTime": "2020-01-21T12:31:53.249+0000",
+				"ringDuration": 1106,
+				"duration": 7665,
+				"status": "Removed",
+				"hangupCause": "SYSTEM_INITIATED",
+				"audios": []
+			}
+		],
+		"recordingURL": "https://openapi.airtel.in/gateway/airtel-xchange-reporting/recordingFile?recording=gLTIM5uvaO6TqDKclWycfVZ9JqkpIguEnpWt6shlVtCDDEppjECLRzpm9fZyK92aTmKbiseWNo44bus6UbFOug==",
+		"audios": [],
+		"events": [{
+				"eventType": "CALL",
+				"participantAddress": "9205971433",
+				"event": "Answer",
+				"time": "2020-01-21T12:31:31.818+0000"
+			},
+			{
+				"eventType": "MEDIA",
+				"participantAddress": "9205971433",
+				"event": "Played",
+				"time": "2020-01-21T12:31:45.366+0000",
+				"metaData": {
+					"audioUrl": "http://10.89.47.210:8088/CDS/airtel_ironman/prompts/Play_nightingales_1.wav"
+				},
+				"comments": "Media file play completed"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "CalledNumber",
+				"time": "2020-01-21T12:31:45.727+0000",
+				"comments": "call initiated on network"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "Ringing_Start",
+				"time": "2020-01-21T12:31:47.746+0000",
+				"comments": "ring initiated from network"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9205971433",
+				"event": "Disconnected",
+				"time": "2020-01-21T12:31:53.033+0000",
+				"metaData": {
+					"causeCode": "16",
+					"sipCode": "699",
+					"causeCodeDescription": "Normal call clearing"
+				}
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "Removed",
+				"time": "2020-01-21T12:31:53.247+0000",
+				"metaData": {
+					"causeCode": "31",
+					"sipCode": "500",
+					"causeCodeDescription": "normal unspecified"
+				}
+			}
+		]
+	},
+	{
+		"vmSessionId": "5e26eeca5d31cc572b7316e6",
+		"clientCorrelationId": "Xchange107739",
+		"customerId": "Waybeo",
+		"startTime": "2020-01-21T12:30:02.624+0000",
+		"endTime": "2020-01-21T12:30:39.569+0000",
+		"duration": 36945,
+		"fromWaitingTime": 33603,
+		"conversationDuration": 3276,
+		"overallCallStatus": "Answered",
+		"callType": "INBOUND",
+		"callerId": "8045475031",
+		"participants": [{
+				"participantAddress": "9205971433",
+				"participantType": "From",
+				"startTime": "2020-01-21T12:30:02.624+0000",
+				"endTime": "2020-01-21T12:30:39.345+0000",
+				"ringDuration": 66,
+				"callAnswerTime": "2020-01-21T12:30:02.690+0000",
+				"duration": 36721,
+				"status": "Disconnected",
+				"hangupCause": "SYSTEM_INITIATED",
+				"audios": [{
+						"audioURL": "http://10.89.47.210:8088/CDS/airtel_ironman/prompts/Play_nightingales_1.wav"
+					},
+					{
+						"audioURL": "http://10.89.47.210:8088/CDS/airtel_ironman/prompts/ring2.wav",
+						"status": "Stopped"
+					}
+				]
+			},
+			{
+				"participantAddress": "9899391271",
+				"participantType": "To",
+				"startTime": "2020-01-21T12:30:17.169+0000",
+				"endTime": "2020-01-21T12:30:39.569+0000",
+				"ringDuration": 18154,
+				"callAnswerTime": "2020-01-21T12:30:36.293+0000",
+				"duration": 22400,
+				"status": "Disconnected",
+				"hangupCause": "SYSTEM_INITIATED",
+				"audios": []
+			}
+		],
+		"recordingURL": "https://openapi.airtel.in/gateway/airtel-xchange-reporting/recordingFile?recording=gLTIM5uvaO6TqDKclWycfTliagSYB6O0L1ft7Ku9ddwAEN3CtExw1/19u4h6jx3RTmKbiseWNo44bus6UbFOug==",
+		"audios": [],
+		"events": [{
+				"eventType": "CALL",
+				"participantAddress": "9205971433",
+				"event": "Answer",
+				"time": "2020-01-21T12:30:03.348+0000"
+			},
+			{
+				"eventType": "MEDIA",
+				"participantAddress": "9205971433",
+				"event": "Played",
+				"time": "2020-01-21T12:30:16.986+0000",
+				"metaData": {
+					"audioUrl": "http://10.89.47.210:8088/CDS/airtel_ironman/prompts/Play_nightingales_1.wav"
+				},
+				"comments": "Media file play completed"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "CalledNumber",
+				"time": "2020-01-21T12:30:17.208+0000",
+				"comments": "call initiated on network"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "Ringing_Start",
+				"time": "2020-01-21T12:30:19.227+0000",
+				"comments": "ring initiated from network"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "Answer",
+				"time": "2020-01-21T12:30:36.320+0000"
+			},
+			{
+				"eventType": "MEDIA",
+				"participantAddress": "9205971433",
+				"event": "Stopped",
+				"time": "2020-01-21T12:30:36.751+0000",
+				"metaData": {
+					"audioUrl": "http://10.89.47.210:8088/CDS/airtel_ironman/prompts/ring2.wav"
+				},
+				"comments": "Media file play stopped"
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9205971433",
+				"event": "Disconnected",
+				"time": "2020-01-21T12:30:39.343+0000",
+				"metaData": {
+					"causeCode": "16",
+					"sipCode": "699",
+					"causeCodeDescription": "Normal call clearing"
+				}
+			},
+			{
+				"eventType": "CALL",
+				"participantAddress": "9899391271",
+				"event": "Disconnected",
+				"time": "2020-01-21T12:30:39.563+0000",
+				"metaData": {
+					"causeCode": "31",
+					"sipCode": "500",
+					"causeCodeDescription": "normal unspecified"
+				}
+			}
+		]
+	}
+]
